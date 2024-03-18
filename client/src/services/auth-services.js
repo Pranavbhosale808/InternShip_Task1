@@ -4,7 +4,7 @@ export const handleLogin = async (userInfo, router) => {
         const response = await axios.post("/api/login", userInfo);
         if (response) {
             alert("Login successful")
-            router.push("/");
+            router.push("/afterhome");
             console.log("Login Success");
         }
     } catch (error) {
@@ -20,7 +20,7 @@ export const handleSignUp = async (userInfo, router) => {
         const response = await axios.post("/api/register", userInfo);
         if (response) {
            alert("Register Successfully")
-            router.push("/");
+            router.push("/login");
             console.log("Register Success");
         }
           

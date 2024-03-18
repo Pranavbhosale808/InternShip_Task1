@@ -30,15 +30,15 @@ import { RouterLink } from 'vue-router';
         <div class="flex justify-between p-4">
             <!-- Logo (replace "Your Logo" with your actual logo) -->
             <div class="flex items-center">
-                <img src="#" alt="Your Logo" class="h-8">
+                <h1 class="h-8">LoGo</h1>
             </div>
             <div class="flex items-center space-x-4 text-lg font-semibold tracking-tight">
                 <RouterLink to="/login"
-                    class="px-6 py-2 text-white transition duration-700 ease-out hover:text-gray-300 dark:text-white dark:hover:text-gray-300">
+                    class="px-6 py-2 text-black transition duration-700 ease-out hover:text-gray-300 dark:text-white dark:hover:text-gray-300">
                     <span class="hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg">Log in</span>
                 </RouterLink>
                 <RouterLink to="/signup"
-                    class="px-6 py-2 text-white transition duration-500 ease-out hover:underline">
+                    class="px-6 py-2 text-black transition duration-500 ease-out hover:underline">
                     <span class="hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg">Sign up</span>
                 </RouterLink>
             </div>
