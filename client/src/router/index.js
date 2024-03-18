@@ -25,8 +25,9 @@ const router = createRouter({
     },
     {
       path: '/afterhome',
-      name: 'afterhome',
-      component: AfterHome
+      name: 'HomeAfter',
+      component: AfterHome,
+      props: route => ({ email: route.params.email})
     },
   ]
 })
