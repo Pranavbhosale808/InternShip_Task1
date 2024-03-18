@@ -65,24 +65,3 @@ const onSubmit = form.handleSubmit((values) => {
     </div>
 </main>
 </template>
-
-
-
-<!-- <form action="">
-    <div class="mt-8 space-y-8">
-        <div class="space-y-6">
-            <input
-                class="w-full bg-transparent text-gray-600 dark:text-white dark:border-gray-700 rounded-md border border-gray-300 px-3 py-2 text-sm placeholder-gray-600 invalid:border-red-500 dark:placeholder-gray-300"
-                placeholder="Your Email" type="email" name="email" id="email" />
-
-            <input
-                class="w-full bg-transparent text-gray-600 dark:text-white dark:border-gray-700 rounded-md border border-gray-300 px-3 py-2 text-sm placeholder-gray-600 invalid:border-red-500 dark:placeholder-gray-300"
-                placeholder="Your Password" type="password" name="password" id="password" />
-        </div>
-
-        <button
-            class="h-9 px-3 w-full bg-blue-600 hover:bg-blue-700 active:bg-blue-800 focus:bg-blue-700 transition duration-500 rounded-md text-white">
-            Signin
-        </button>
-    </div>
-</form> -->
