@@ -61,7 +61,13 @@ const onSubmit = form.handleSubmit((values) => {
                             class="text-blue-600 transition duration-200 hover:underline dark:text-blue-400">Sign UP
                         </a>
                         </p>
+
+                        <p class="text-sm tracking-wide my-3 text-center text-gray-600 dark:text-gray-300">Go to Home ? <a href="/"
+                            class="text-blue-600 transition duration-200 hover:underline dark:text-blue-400">Home
+                        </a>
+                        </p>
                 </form>
+            
     </div>
 </main>
 </template>
