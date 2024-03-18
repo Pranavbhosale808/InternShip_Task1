@@ -71,7 +71,7 @@ const onSubmit = form.handleSubmit((values) => {
                         <p class="text-sm tracking-wide my-3 text-center text-gray-600 dark:text-gray-300">Already have an
                         account ? <a href="/login"
                             class="text-blue-600 transition duration-200 hover:underline dark:text-blue-400">Log in
-                        </a>here
+                        </a>
                     </p>
                     </form>
                   

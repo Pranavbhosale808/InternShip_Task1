@@ -56,10 +56,12 @@ const onSubmit = form.handleSubmit((values) => {
                     <Button type="submit" class="mt-8 w-full">
                         Log in
                     </Button>
+                    <p class="text-sm tracking-wide my-3 text-center text-gray-600 dark:text-gray-300">Create new
+                        account ? <a href="/signup"
+                            class="text-blue-600 transition duration-200 hover:underline dark:text-blue-400">Sign UP
+                        </a>
+                        </p>
                 </form>
-        <div class="p-8">
-            
-        </div>
     </div>
 </main>
 </template>
